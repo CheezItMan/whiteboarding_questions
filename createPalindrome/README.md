@@ -1,6 +1,6 @@
 # Shortest Palindrome 
 
-Write a program that will take a string and turn that string into a palindrome with the minimum number of insertions.
+Write a program that will take a string and turn that string into a palindrome with the minimum number of appends to the front or rear of the string.
 For Example
 input: “dog”
 output: “dogod”
