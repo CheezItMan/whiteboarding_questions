@@ -19,4 +19,12 @@ DanAndKari.prototype.countOccurances = function(findString) {
   return count;
 };
 
+/*********************************************************/
+/*  What questions would you ask the interviewer?        */
+/*                                                       */
+/*  I would ask, does capitalization matter?             */
+/*  What library functions can I use (indexOf?)          */
+/*********************************************************/
+
+
 module.exports = DanAndKari;

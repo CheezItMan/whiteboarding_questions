@@ -8,4 +8,8 @@ For Example:
 input: [1,[2,3,nil,4],[nil],5]
 output: [1,2,3,4,5]
 
+You can run the tests on the code from the project folder with:
 
+```bash
+$  jasmine-node .
+```

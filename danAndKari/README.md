@@ -1,11 +1,16 @@
-# Flatten Array
+# Dan & Kari
 
-Write a program that will take a nested list and returns a single list with all values except nil/null
-The challenge is to write a function that accepts an arbitrarily-deep nested list-like structure and returns a flattened structure without any nil/null values.
-
+Write a method which will return true if “Dan” and “Kari” appear an equal number of times within a given String.
 For Example:
+dan_and_kari(“Dan ate kari’s lunch.”)  # True
+dan_and_kari(“Dan really like’s Kari’s dog, but Jamie adores Kari’s Dog”);  # False
+dan_and_kari(“Danforth Theodore Wilford the Third”);  # False
 
-input: [1,[2,3,nil,4],[nil],5]
-output: [1,2,3,4,5]
 
+What questions would you ask the interviewer?  
 
+You can run the tests from the project folder with:
+
+```bash
+jasmine-node .
+```
